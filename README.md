@@ -64,7 +64,6 @@ strings and constants are encoded into runtime-decoded values
 4. Code Generation
 
 The transformed AST is compiled back into executable Lua bytecode-equivalent source.
-⚠️ Warning
 
 ## Ironveil is designed for:
 
