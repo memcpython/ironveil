@@ -1,0 +1,11 @@
+{
+  "name": "ironveil",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "build": "node ../node_modules/typescript/bin/tsc -p tsconfig.json",
+    "start": "node ../node_modules/ts-node/dist/bin.js src/cli.ts",
+    "bench": "npm run build && node scripts/run-benchmarks.js"
+  }
+}
